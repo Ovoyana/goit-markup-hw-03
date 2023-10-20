@@ -40,8 +40,8 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 28px;
-  padding-bottom: 30px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .page-nav {
@@ -52,11 +52,6 @@ img {
   margin-right: 334px;
 }
 
-.logotype {
-  display: flex;
-  margin-right: 76px;
-}
-
 .logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
@@ -65,6 +60,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-studio {
@@ -73,7 +69,14 @@ img {
 
 .nav-list {
   display: flex;
-  column-gap: 40px;
+}
+
+.list-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.list-item:last-child {
+  margin-right: 0;
 }
 
 .nav-list-link {
@@ -98,7 +101,14 @@ img {
 
 .contacts-list {
   display: flex;
-  column-gap: 40px;
+}
+
+.contacts-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.contacts-item:last-child {
+  margin-right: 0;
 }
 
 .contacts-link {
@@ -123,12 +133,13 @@ img {
 /********** Main Content***********/
 
 .section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .main-info {
-  padding-bottom: 60px;
+  padding-top: 188px;
+  padding-bottom: 188px;
   background: #2e2f42;
 }
 
@@ -137,7 +148,7 @@ img {
   padding-top: 183px;
   margin-right: auto;
   margin-left: auto;
-  width: 496px;
+  max-width: 496px;
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
@@ -146,23 +157,18 @@ img {
   text-align: center;
 }
 
-.button {
-  display: block;
-  margin-top: 48px;
-  padding-right: 479px;
-  padding-left: 480px;
-  padding-bottom: 188px;
-}
-
 .click {
-  width: 188px;
-  padding: 16px 32px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  margin-top: 48px;
+  margin-right: 479px;
+  margin-left: 480px;
   gap: 10px;
   border-radius: 4px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #ffffff;
-  background: #4d5ae5;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -191,11 +197,14 @@ img {
 .motto-list {
   display: flex;
   align-items: flex-start;
-  column-gap: 24px;
 }
 
 .motto-list-item {
   width: calc((100% - 3 * 24px) / 4);
+}
+
+.motto-list-item:not(:last-child) {
+  margin-right: 24px;
 }
 
 .motto-title {
@@ -222,6 +231,7 @@ img {
   background: #f4f4fd;
 }
 
+
 .team-title {
   display: flex;
   justify-content: center;
@@ -236,6 +246,10 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+}
+
+.achievements-list {
+  padding: 32px 0;
 }
 
 .team-list {
@@ -256,7 +270,6 @@ img {
 .item-title {
   display: flex;
   justify-content: center;
-  margin-top: 32px;
   margin-bottom: 8px;
   color: #2e2f42;
   font-size: 20px;
@@ -268,7 +281,6 @@ img {
 .occupation {
   display: flex;
   justify-content: center;
-  padding-bottom: 32px;
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -297,12 +309,15 @@ img {
 .achievements-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
 }
 
 .achievements-list-item {
   border: 1px solid #e7e9fc;
   width: calc((100% - 2 * 24px) / 3);
+}
+
+.achievements-list-item:not(:last-child) {
+  margin-right: 24px;
 }
 
 .achievements-title-app {
@@ -332,13 +347,10 @@ img {
   padding-top: 60px;
 }
 
-.logotype {
-  display: flex;
-  width: 115px;
-  justify-content: flex-start;
-}
-
 .postscript .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+  width: 115px;
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -357,7 +369,6 @@ img {
   width: 264px;
   justify-content: flex-start;
   padding-bottom: 100px;
-  margin-top: 17.5px;
   color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
