@@ -46,7 +46,7 @@ img {
   max-width: 450px;
   display: flex;
   align-items: center;
-  margin: auto;
+  margin-right: auto;
   padding: 24px 0;
 }
 
@@ -95,12 +95,13 @@ img {
 .contacts {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   font-style: normal;
 }
 
 .contacts-list {
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contacts-item:not(:last-child) {
@@ -138,16 +139,14 @@ img {
 }
 
 .main-info {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
   background: #2e2f42;
 }
 
 .main-title {
-  display: flex;
-  padding-top: 183px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 48px;
   max-width: 496px;
   color: #ffffff;
   font-size: 56px;
@@ -161,10 +160,8 @@ img {
   display: block;
   min-width: 169px;
   height: 56px;
-  margin-top: 48px;
-  margin-right: 479px;
-  margin-left: 480px;
-  gap: 10px;
+  margin: 0 auto;
+
   border: none;
   border-radius: 4px;
   background: #4d5ae5;
@@ -197,11 +194,10 @@ img {
 
 .motto-list {
   display: flex;
-  align-items: flex-start;
 }
 
 .motto-list-item {
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .motto-list-item:not(:last-child) {
@@ -237,9 +233,6 @@ img {
 }
 
 .team-title {
-  display: flex;
-  justify-content: center;
-  padding-top: 127px;
   margin-right: auto;
   margin-bottom: 72px;
   margin-left: auto;
@@ -267,7 +260,7 @@ img {
 
 .team-list-item {
   background: #ffffff;
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -275,8 +268,6 @@ img {
 }
 
 .item-title {
-  display: flex;
-  justify-content: center;
   margin-bottom: 8px;
   color: #2e2f42;
   font-size: 20px;
@@ -287,8 +278,6 @@ img {
 }
 
 .occupation {
-  display: flex;
-  justify-content: center;
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -299,12 +288,15 @@ img {
 
 /******** Our  Portfolio ******/
 
+.achievements {
+  border: 1px solid #e7e9fc;
+}
+
 .achievements-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  border: 1px solid #e7e9fc;
 }
 
 .achievements-app {
@@ -315,9 +307,6 @@ img {
 }
 
 .achievements-title {
-  display: flex;
-  justify-content: center;
-  padding-top: 120px;
   margin-right: auto;
   margin-bottom: 72px;
   margin-left: auto;
@@ -331,7 +320,7 @@ img {
 }
 
 .achievements-list-item {
-  width: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .achievements-title-app {
@@ -351,7 +340,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-/*Ending*/
+/********* Ending **********/
 
 .postscript {
   background: #2e2f42;
@@ -379,8 +368,6 @@ img {
 .postscript-text {
   display: flex;
   width: 264px;
-  justify-content: flex-start;
-  padding-bottom: 100px;
   color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
