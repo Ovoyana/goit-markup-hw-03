@@ -40,7 +40,6 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 
 .page-nav {
@@ -49,6 +48,7 @@ img {
   align-items: center;
   justify-content: space-between;
   margin-right: 334px;
+  padding: 24px 0;
 }
 
 .logo {
@@ -68,7 +68,6 @@ img {
 
 .nav-list {
   display: flex;
-  padding: 24px 0;
 }
 
 .list-item:not(:last-child) {
