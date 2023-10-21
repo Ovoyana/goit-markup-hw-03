@@ -46,8 +46,7 @@ img {
   max-width: 450px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-right: 334px;
+  margin: auto;
   padding: 24px 0;
 }
 
@@ -84,6 +83,8 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-list-link:hover,
@@ -94,7 +95,7 @@ img {
 .contacts {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   font-style: normal;
 }
 
@@ -330,7 +331,7 @@ img {
 }
 
 .achievements-list-item {
-  width: calc((100% - 48px) / 3);
+  width: calc((100%-48px) / 3);
 }
 
 .achievements-title-app {
