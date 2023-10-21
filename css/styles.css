@@ -40,7 +40,7 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
- padding: 24px 0;
+  padding: 24px 0;
 }
 
 .page-nav {
@@ -69,7 +69,9 @@ img {
 .nav-list {
   display: flex;
 }
-
+.list-item {
+  padding: 24px 0;
+}
 .list-item:not(:last-child) {
   margin-right: 40px;
 }
@@ -251,7 +253,6 @@ img {
   text-align: center;
 }
 
-
 .team-list {
   display: flex;
   flex-wrap: wrap;
@@ -283,7 +284,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: crnter;
+  text-align: center;
 }
 
 .occupation {
@@ -304,7 +305,7 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  border: 1px solid  #E7E9FC;
+  border: 1px solid #e7e9fc;
 }
 
 .achievements {
@@ -312,9 +313,8 @@ img {
   padding-right: 16px;
   padding-bottom: 32px;
   padding-left: 16px;
-
-
 }
+
 .achievements-title {
   display: flex;
   justify-content: center;
@@ -331,12 +331,9 @@ img {
   text-align: center;
 }
 
-
 .achievements-list-item {
-  border: 1px solid #e7e9fc;
   width: calc((100% - 48px) / 3);
 }
-
 
 .achievements-title-app {
   margin-bottom: 8px;
