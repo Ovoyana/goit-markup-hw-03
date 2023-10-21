@@ -68,10 +68,9 @@ img {
 
 .nav-list {
   display: flex;
-}
-.list-item {
   padding: 24px 0;
 }
+
 .list-item:not(:last-child) {
   margin-right: 40px;
 }
@@ -308,7 +307,7 @@ img {
   border: 1px solid #e7e9fc;
 }
 
-.achievements {
+.achievements-app {
   padding-top: 32px;
   padding-right: 16px;
   padding-bottom: 32px;
